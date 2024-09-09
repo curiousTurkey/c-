@@ -9,6 +9,7 @@ enum Day {
 };
 int main(){
     //enums - a user-defined data type that consists of paired named-integer constants. Great if you have a set of potential options
+    //enum values are automatically assigned values from 0 to n if we dont specify an integer value
     Day today = sunday;
 
     switch (today)
