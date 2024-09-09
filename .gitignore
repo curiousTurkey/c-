@@ -8,3 +8,4 @@
 \f0\fs24 \cf0 *.exe}
 recursion
 function_template
+passing_struct_as_args
