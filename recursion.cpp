@@ -6,6 +6,10 @@ using std::endl;
 using std::string;
 int factorial(int number);
 int main(){
+    //recursion: programming technique where a function invokes itself from within
+    //breaks a complex concept into a repeatable single step
+    // advantages - less code and cleaner
+    // disadvantages - uses more memory, slower
     int number;
     cout << "Enter the number to find the factorial";
     cin >> number;
